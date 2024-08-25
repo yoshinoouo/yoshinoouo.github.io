@@ -1,0 +1,198 @@
+@import url("reset.css");
+
+body{
+    /* background-color: #999; */
+}
+
+.wapper{
+    max-width: 1440px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+/* ------------- top ----------------- */
+
+.top{
+    /* max-width: 1440px; */
+    height: 50px;
+    /* margin: 0 auto; */
+    padding-bottom: 15px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo{
+    height: 70px;
+    margin-top: 15px;
+    
+}
+
+.top ul{
+    margin-top: 15px;
+
+    display: flex;
+}
+
+.top ul li{}
+
+.top ul li a{
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    width: 100px;
+    height: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+/* -------------- kv -------------------- */
+
+.kv{
+    background-color:#999;
+
+}
+
+.kv img{
+    display: block;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+/* ------------- main1 -------------------- */
+
+.main1{
+    background-color:#ccc;
+    padding-top: 30px;
+    text-align: center;
+    max-height: 400px;
+}
+
+.main1 h1{
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+
+    position: relative;
+}
+
+.more{
+    font-size: 18px;
+    font-weight: normal;
+    color: #666;
+    text-decoration: none;
+
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.main1 ul{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.main1 li{}
+
+.main1 li h2{
+    width: 150px;
+    padding: 10px 0;
+}
+
+.bookA{
+    display: block;
+    width: 150px;
+}
+
+/* ------------- main2 ------------------- */
+
+.main2{
+    background-color:#ddd;
+    padding-top: 30px;
+    text-align: center;
+    max-height: 400px;
+}
+
+.main2 h1{
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+
+    position: relative;
+}
+
+.more{
+    font-size: 18px;
+    font-weight: normal;
+    color: #666;
+    text-decoration: none;
+
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.main2 ul{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.main2 li{}
+
+.main2 li h2{
+    width: 150px;
+    padding: 10px 0;
+}
+
+.bookA{
+    display: block;
+    width: 150px;
+}
+
+/* ---------- footer --------------- */
+
+.foot{
+    background-color: #666;
+
+    display: flex;
+    justify-content: center;
+}
+
+.footA{
+    display: block;
+    width: 300px;
+}
+
+.foottop{}
+
+.foottop h1{
+    font-size: 24px;
+}
+
+.footul{}
+
+.footul ul{}
+
+.footul ul li{}
+
+.footul ul li a{}
+
+
+
+
+
+
